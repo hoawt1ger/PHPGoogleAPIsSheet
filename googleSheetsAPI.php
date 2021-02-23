@@ -16,7 +16,8 @@
 	$userId = $deCode['events'][0]['source']['userId'];
 	$type = $deCode['events'][0]['type'];
 
-	$token = "LINE-ACCESS-TOKEN";
+	$token = "GgXfvhzNKqmq2/StlDBcz2LgNKFoGW7+DTYOy1B/S5wCKppzHEqoWTTxotA6v2xWV22H9LzmJA1FUCzntH9KIci0CN6A9ACdO6pQb2XL1fabVHsIrfDxSEOiMW8af0FlwSliIKxa4ql7LvXN6PBdtgdB04t89/1O/w1cDnyilFU=
+";
 
 	$LINEProfileDatas['url'] = "https://api.line.me/v2/bot/profile/".$userId;
   	$LINEProfileDatas['token'] = $token;
